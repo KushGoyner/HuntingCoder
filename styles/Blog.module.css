@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content:center;
+    justify-content:flex-start;
+    align-items: center;
+    padding-top: 3rem;
+    min-height: 100vh;
+  }
+  .blogItem h3{
+    cursor:pointer;
+
+  }
+  .container {
+    padding:0 2rem;
+  }
