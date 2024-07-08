@@ -36,14 +36,15 @@ const Slug = (props) => {
 
 //GETSTATICPROPS ANS GETSTATICPATHS
 export async function getStaticPaths(){
-  return {
-    paths: [
-    {params:{slug:"blogs"}},
-    {params:{slug:"blogs-copy"}},
-    {params:{slug:"blogs-copy-2"}}
-  ],
-    fallback: true 
-  };
+   let allb = await fs.promises.readdir(`blogdata`)
+    allb = allb.map((item) => {
+        return { params: { slug: item.split(".")[0] } }
+    })
+    console.log(allb)
+    return {
+        paths: allb,
+        fallback: true // false or 'blocking'
+    };
 }
 export async function getStaticProps(context) {
   const {slug} = context.params;
