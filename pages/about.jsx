@@ -7,13 +7,21 @@ const About = () => {
   <div className={styles.container}>
     <h1 className={styles.center}>About Hunting Coder</h1>
     <h2>Introduction</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus accusamus aliquid saepe! Incidunt deleniti nemo, eaque repellat maxime commodi? Odio aliquam, ipsum dolorem impedit quo soluta ratione ex perspiciatis itaque.</p>
+    <p>Welcome to Hunting Coder, your go-to hub for all things coding! Whether you're a seasoned developer or just starting your programming journey, our blog is designed to inspire, educate, and empower you. Happy coding!</p>
     <h2>Services Offered</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet pariatur maiores nihil consequatur, quos ut magnam ullam dolorum. Facere tenetur delectus impedit sunt qui iure. Perspiciatis, itaque labore iste minima eius tenetur eligendi.
+      Here are some services a Hunting Coder can offer:-
+      <br/>
+      &emsp;•&emsp;   Tutorials and Guides <br/>
+      &emsp;•&emsp;   Code Snippets<br/>
+      &emsp;•&emsp;   Career Advice<br/>
+      &emsp;•&emsp;   Q&A Forums<br/>
+
+
     </p>
-    <h2>Contact Us</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae accusantium adipisci, obcaecati omnis explicabo sunt commodi libero delectus. Iure explicabo temporibus ratione!</p>
+    
+    <h2>Developed By</h2>
+    <p>Kush Goyner</p>
   </div>
   </>
   )
